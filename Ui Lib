@@ -1,5 +1,4 @@
-local library = {https://raw.githubusercontent.com/Fluk3z/FlukHub/main/Ui%20Lib
-}
+local library = {}
 
 local TweenService = game:GetService("TweenService")
 function library:tween(...) TweenService:Create(...):Play() end
