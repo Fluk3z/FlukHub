@@ -1,4 +1,4 @@
-local library = {new}
+local library = {https://github.com/cueshut/saves/blob/main/criminality%20paste%20ui%20library}
 
 local TweenService = game:GetService("TweenService")
 function library:tween(...) TweenService:Create(...):Play() end
